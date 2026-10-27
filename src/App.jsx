@@ -1,13 +1,13 @@
 import './App.css'
-import Home from './components/Home'
+import Navbar from './components/Navbar'
 
 function App() {
 
 
   return (
     <div className="App">
+      <Navbar/>
       <h1>My E-commerce Store</h1>
-      <Home />
     </div>
   )
 }
