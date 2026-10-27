@@ -1,9 +1,9 @@
-import React from "react";
 
 
 
-class Home extends React.Component {
-  render() {
+
+function Home() {
+ 
     return (  
       <div>
         {/* titulo-home */}
@@ -12,5 +12,5 @@ class Home extends React.Component {
       </div>
     );
   }
-}
+
 export default Home;
