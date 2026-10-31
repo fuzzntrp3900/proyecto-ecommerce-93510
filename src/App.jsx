@@ -1,13 +1,14 @@
 import './App.css'
+import ItemListContainer from './components/ItemListContainer'
 import Navbar from './components/Navbar'
 
 function App() {
 
 
   return (
-    <div className="App">
+    <div className="App min-vh-100 d-flex flex-column">
       <Navbar/>
-      <h1>My E-commerce Store</h1>
+      <ItemListContainer greeting="¡Bienvenidos a nuestra tienda!"/>
     </div>
   )
 }
