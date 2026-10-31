@@ -1,11 +1,12 @@
 import './Navbar.css'
 import tiendaLogo from '../assets/logo_tienda.png'
+import CartWidget from './CartWidget'
 export default function Navbar() {
   return (
     <nav className='navbar navbar-expand-md'>
         <div className=" container-fluid justify-content-between px-4">
           <a className="navbar-brand" href="#">
-            {/* 3. Corregida la ruta de la imagen de Vite */}
+            {/* ruta de logo tienda con vite */}
             <img 
               src={tiendaLogo}
               alt="logo" 
@@ -14,6 +15,7 @@ export default function Navbar() {
               className="navbar-logo"  
             />
           </a>
+          {/* listado de categorias */}
            <ul className="nav justify-content-center">
             <li className="nav-item">
               <a className="nav-link active" aria-current="page" href="#">
@@ -40,7 +42,11 @@ export default function Navbar() {
                 Accesorios
               </a>
             </li>
-          </ul>   
+          </ul>  
+          <div className="d-flex align-items-center">
+            {/* vinculamos el carrito */}
+            <CartWidget/>
+          </div> 
         </div>
     </nav>
   )
