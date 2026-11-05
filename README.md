@@ -14,7 +14,7 @@
 
 1. clonar el repositorio:
 ```bash
-git clone https://github.com/fuzzntrp3900/mi-ecommerce-custom.git
+git clone https://github.com/fuzzntrp3900/proyecto-ecommerce-93510.git
 ```
 
 2. instalar las dependencias:

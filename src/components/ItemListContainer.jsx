@@ -3,7 +3,6 @@ import './ItemListContainer.css'
 export default function ItemListContainer(props) {
     /* APLICAMOS EL DESTRUCTURING OBJECT */
     const {greeting}= props;
-    console.log("greeting:", props)
   return (
     <div className="item-list-container">
         <div className="container text-center py-5 px-3">
@@ -13,7 +12,6 @@ export default function ItemListContainer(props) {
         Con <strong>Helix</strong>, tus pertenencias viajan seguras a donde sea que vayas.
         </p>
         </div>
-       
     </div>
   )
 }
