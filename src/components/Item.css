@@ -1,5 +1,6 @@
 .item {
-    border: 1px solid #4d4d4d;
+    background-color: #969eb0;
+    border: 1px solid #4dae9d;
     border-radius: 10px;
     box-shadow: 5px 5px rgb(0, 0, 0, 0.01);
     padding: 20px;
@@ -14,10 +15,24 @@
     font-size: 1.2rem;
     font-weight: bold;
     margin-bottom: 10px;
+    text-transform: uppercase;
 }
 .item .card-body img {
     height: 150px;
     width: auto;
     object-fit: contain;
     margin-bottom: 15px;
+}
+/* Estilo para el botón de agregar al carrito */
+.btn-add-to-cart {
+    background-color: #201e1e; 
+    color: #ffffff;
+    border: none;
+    border-radius: 30px;
+    padding: 10px 24px;
+    font-size: 0.95rem;
+    font-weight: 600;
+    width: 100%;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
 }
