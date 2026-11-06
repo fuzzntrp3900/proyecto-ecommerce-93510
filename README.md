@@ -10,6 +10,8 @@
 - **Navbar:** contiene el brand de la tienda, las categorias y el carrito con el contador de items.
 - **CartWidget:** componente que representa el carrito y el badge de conteo de items.
 - **ItemListContainer:** es el contenedor principal que almacena el titulo de la app y proximamente el listado de productos.
+- **ItemList:** componente que se encarga de la logica para cargar el listado de productos mock. Se utilizaron los estados loading, products, error.
+- **Item:** componente tipo card que muestra nombre, imagen y precio de producto.
 ## 🚀 Configuracion/Ejecución:
 
 1. clonar el repositorio:
